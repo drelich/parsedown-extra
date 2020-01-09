@@ -597,12 +597,15 @@ class ParsedownExtra extends Parsedown
 
         foreach ($attributes as $attribute)
         {
-            if ($attribute[0] === '#')
-            {
+            if ($attribute[0]===':') {
+                $Data['target'] = substr($attribute, 1);
+            }
+
+            if ($attribute[0]==='#') {
                 $Data['id'] = substr($attribute, 1);
             }
-            else # "."
-            {
+
+            if ($attribute[0]==='.') {
                 $classes []= substr($attribute, 1);
             }
         }
@@ -682,5 +685,5 @@ class ParsedownExtra extends Parsedown
     # Fields
     #
 
-    protected $regexAttribute = '(?:[#.][-\w]+[ ]*)';
+    protected $regexAttribute = '(?:[#.:][-\w]+[ ]*)';
 }
