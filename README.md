@@ -2,6 +2,6 @@
 
 __Usage in Markdown:__
 
-`[some link text](https://#){:_blank}`
+`[some link text](link URI){:_blank}`
 
 The above example creates an 'A' HTML element with 'target' attribute set to '_blank'.
