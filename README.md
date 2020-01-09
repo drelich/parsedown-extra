@@ -8,6 +8,6 @@ The above example creates this HTML code:
 
 `<a href='link URI' target='_blank'>some link text</a>`
 
-I kinda got used to the target attribute when I used to use Jekkyll and Kramdown parser to run my blog. 
+I kinda got used to the target attribute when I used to use Jekyll and Kramdown parser to run my blog. 
 
 Working on my own PHP-based Markdown blogging platform, there was no option to integrate Kramdown (it requires Ruby environment) so I decided to add that feature to the awesome Parsedown Extra class.
