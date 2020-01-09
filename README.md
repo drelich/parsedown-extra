@@ -4,4 +4,4 @@ __Usage in Markdown:__
 
 `[some link text](https://#){:_blank}`
 
-The above example create an A HTML element with target attribute set to _blank.
+The above example creates an 'A' HTML element with 'target' attribute set to '_blank'.
