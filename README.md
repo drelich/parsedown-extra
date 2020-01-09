@@ -5,3 +5,5 @@ __Usage in Markdown:__
 `[some link text](link URI){:_blank}`
 
 The above example creates an 'A' HTML element with 'target' attribute set to '_blank'.
+
+I kinda got used to the target attribut when I used to use Jekkyll and Kramdown parser. Working on my own PHP-based Markdown blogging platform, there was no option to integrate Kramdown (supposedly it requires Ruby environment) so I decided to add that feature to the awesome Parsedown Extra class.
