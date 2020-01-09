@@ -1,3 +1,5 @@
+** This is a fork that adds the option to use ':' for target attribute**
+
 > You might also like [Caret](http://caret.io?ref=parsedown) - our Markdown editor for the Desktop.
 
 ## Parsedown Extra
